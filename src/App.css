@@ -1,0 +1,28 @@
+
+body {
+  background-color:    #ccc;
+}
+.App {
+  text-align: center;
+
+}
+
+.countryGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.country {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(100% - 20px);
+  margin: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.country.selected {
+  background-color: #f0f0f0;
+}
